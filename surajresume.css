@@ -1,0 +1,44 @@
+*{
+ box-sizing: border-box;  
+ line-height: 1.6;
+}
+body{
+    margin:0 auto;
+    width: 80%;
+    
+    max-width: 900px;
+    background-color: azure;
+word-spacing: 3px;
+font-family :Arial, Helvetica, sans-serif;
+border: 2px solid black;
+padding: 1pc;
+}
+header{
+    border: 1px solid beige;
+    text-align: center;
+}
+.nav{
+    color: purple;
+    background-color: burlywood;
+    display: flex;
+    flex-direction:column;
+ padding: 5px;
+    height: 100%;
+}
+.body{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+.main{
+    padding-left: 1pc;
+    border: 1px solid blanchedalmond;
+}
+.name{
+    text-align: center;
+    color: blue;
+}
+.name{
+    position: sticky;
+    top: 0px;
+background-color:azure;
+}
